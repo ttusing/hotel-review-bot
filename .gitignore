@@ -1,0 +1,8 @@
+# airbnb and slack credentials
+credentials.py
+
+# Jupiter cache
+.ipynb_checkpoints/
+
+# OSX crap
+.DS_Store
