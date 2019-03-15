@@ -4,9 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+airbnb = "*"
 jupyter = "*"
 notebook = "*"
 datetime = "*"
+tornado = "==5.1.1"  # https://github.com/jupyter/notebook/issues/2664
+# https://github.com/pypa/pipenv/issues/2083
+chevron = "*"
+pandas="*"
+numpy="*"
+slackclient="*"
 
 [dev-packages]
 
